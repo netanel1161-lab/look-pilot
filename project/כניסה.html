@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>נתוני פיילוט | כניסה</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght=300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'lok-primary': '#007AFF',
+                        'lok-dark-gray': '#393939',
+                        'lok-soft-gray': '#F7F8FA',
+                        'lok-success': '#28A745',
+                        'lok-error': '#DC3545',
+                    },
+                    fontFamily: {
+                        sans: ['Heebo', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+            color: #393939;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            background-color: #F7F8FA;
+        }
+
+        /* Diagonal background split */
+        .login-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #F7F8FA 50%, #EBF5FF 50%);
+            z-index: 0;
+        }
+
+        /* Animated Geometric Circles */
+        .system-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            opacity: 0.15; 
+            z-index: 1;
+        }
+
+        .system-background svg {
+            position: absolute;
+            animation: moveCircles 30s linear infinite alternate; 
+            filter: blur(10px);
+        }
+
+        .system-background .circle-1 {
+            width: 500px; height: 500px;
+            top: -10%; right: -10%;
+            fill: #007AFF;
+            animation-delay: 0s;
+        }
+
+        .system-background .circle-2 {
+            width: 700px; height: 700px;
+            bottom: -20%; left: -20%;
+            fill: #007AFF;
+            animation-delay: 15s;
+        }
+
+        @keyframes moveCircles {
+            0% { transform: translate(0, 0) scale(1); }
+            100% { transform: translate(-30px, 30px) scale(1.05); }
+        }
+
+        /* Login Card */
+        .login-card {
+            z-index: 10;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Phone Input Styling */
+        .phone-input {
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #007AFF;
+            border: 2px solid #EBF5FF;
+            transition: all 0.2s;
+            letter-spacing: 2px;
+        }
+        .phone-input:focus {
+            outline: none;
+            border-color: #007AFF;
+            box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.15);
+        }
+        .phone-input::placeholder {
+            color: #cbd5e1;
+            font-weight: 400;
+            letter-spacing: normal;
+        }
+
+        /* Feedback Message Styling */
+        #feedback-message {
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.3s, transform 0.3s;
+        }
+        #feedback-message.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        #feedback-message.success {
+            color: #28A745;
+        }
+        #feedback-message.error {
+            color: #DC3545;
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top: 3px solid white;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+            margin-inline-end: 8px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Button style */
+        .login-button {
+            transition: all 0.3s;
+        }
+        .login-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 122, 255, 0.3);
+        }
+        .login-button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+        
+        .fade-in-up {
+            animation: fadeInUp 0.5s ease-out forwards;
+        }
+        
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-background"></div> 
+    
+    <div class="system-background">
+        <svg class="circle-1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>
+        <svg class="circle-2" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>
+    </div>
+    
+    <!-- Audio Elements -->
+    <!-- צליל הצלחה נעים -->
+    <audio id="sound-success" src="https://assets.mixkit.co/sfx/preview/mixkit-software-interface-start-2574.mp3" preload="auto"></audio>
+    <!-- צליל שגיאה -->
+    <audio id="sound-error" src="https://assets.mixkit.co/sfx/preview/mixkit-wrong-answer-fail-notification-946.mp3" preload="auto"></audio>
+
+    <!-- Login Card -->
+    <div id="login-card" class="login-card w-full max-w-md p-8 sm:p-12 rounded-3xl text-center">
+        
+        <!-- כותרת ראשית מעודכנת וללא תת-כותרת -->
+        <h1 class="text-4xl font-extrabold text-lok-dark-gray mb-10">נתוני פיילוט</h1>
+        
+        <!-- טופס כניסה -->
+        <form id="login-form" class="space-y-6">
+            
+            <div class="text-right">
+                <label for="phone-input" class="block text-base font-medium text-gray-700 mb-2">
+                    מספר טלפון:
+                </label>
+                <!-- תיבת טלפון יחידה -->
+                <div dir="ltr" class="relative">
+                    <input 
+                        type="tel" 
+                        id="phone-input" 
+                        class="phone-input rounded-xl" 
+                        placeholder="0500000000"
+                        autocomplete="tel"
+                        maxlength="10"
+                    >
+                </div>
+            </div>
+            
+            <!-- אזור הודעות שגיאה/הצלחה -->
+            <div id="feedback-message" class="text-center text-sm font-medium h-6"></div>
+            
+            <button type="submit" id="login-btn" class="login-button w-full py-3 rounded-xl text-lg font-bold text-white bg-lok-primary hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-lok-primary/50">
+                <span>כניסה</span>
+            </button>
+        </form>
+    </div>
+
+    <script>
+        // -- הדמיית מסד נתונים (DATABASE) --
+        // כעת זהו אובייקט JSON הממפה מספר טלפון -> לאובייקט משתמש (כולל שם)
+        // בעתיד תוכל לטעון את זה מקובץ JSON חיצוני
+        const DATABASE_USERS = {
+            '0501234567': { name: 'ישראל ישראלי', role: 'מנהל' },
+            '0529999999': { name: 'נועה כהן', role: 'בודקת' },
+            '0548888888': { name: 'דני דין', role: 'משתמש' }
+        };
+
+        // -- אלמנטים DOM --
+        const phoneInput = document.getElementById('phone-input');
+        const loginForm = document.getElementById('login-form');
+        const loginBtn = document.getElementById('login-btn');
+        const feedbackMessage = document.getElementById('feedback-message');
+        const loginCard = document.getElementById('login-card');
+        
+        // -- אלמנטים של סאונד --
+        const soundSuccess = document.getElementById('sound-success');
+        const soundError = document.getElementById('sound-error');
+
+        // -- פונקציות עזר --
+
+        /**
+         * מנגן צליל לפי סוג
+         */
+        function playSound(type) {
+            // איפוס הסאונד להתחלה במקרה שהוא כבר נוגן
+            if (type === 'success') {
+                soundSuccess.currentTime = 0;
+                soundSuccess.play().catch(e => console.log('Audio play failed:', e));
+            } else {
+                soundError.currentTime = 0;
+                soundError.play().catch(e => console.log('Audio play failed:', e));
+            }
+        }
+
+        /**
+         * מציג הודעת משוב עם סוג וטקסט
+         */
+        function showFeedback(type, text) {
+            feedbackMessage.classList.remove('show', 'success', 'error');
+            
+            // Timeout קצר כדי לאפשר אנימציה מחדש
+            setTimeout(() => {
+                feedbackMessage.textContent = text;
+                feedbackMessage.classList.add('show', type);
+                
+                // רעד קל במקרה של שגיאה
+                if(type === 'error') {
+                    phoneInput.classList.add('border-lok-error', 'text-lok-error');
+                    setTimeout(() => {
+                        phoneInput.classList.remove('border-lok-error', 'text-lok-error');
+                    }, 2000);
+                }
+            }, 10); 
+        }
+
+        /**
+         * פונקציה המדמה בדיקה מול שרת (Server Check)
+         * מחזירה Promise עם פרטי המשתמש אם קיים, או null אם לא
+         */
+        function getUserFromServer(phoneNumber) {
+            return new Promise((resolve, reject) => {
+                // הדמיית זמן טעינה של שרת (1.5 שניות)
+                setTimeout(() => {
+                    // חיפוש המשתמש באובייקט הנתונים
+                    const user = DATABASE_USERS[phoneNumber];
+                    resolve(user || null); // מחזיר את המשתמש או null
+                }, 1500);
+            });
+        }
+
+        // -- לוגיקה של הקלט --
+
+        // ניקוי תווים לא רצויים בזמן הקלדה (רק מספרים)
+        phoneInput.addEventListener('input', (e) => {
+            const value = e.target.value;
+            // משאיר רק ספרות
+            e.target.value = value.replace(/[^0-9]/g, '');
+            
+            // איפוס שגיאות בעת הקלדה מחדש
+            if(feedbackMessage.classList.contains('error')) {
+                feedbackMessage.classList.remove('show');
+            }
+        });
+
+        // -- לוגיקה של שליחת הטופס --
+
+        loginForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const phone = phoneInput.value.trim();
+
+            // 1. בדיקת תקינות בסיסית
+            if (phone.length < 9 || phone.length > 10) {
+                showFeedback('error', 'נא להזין מספר טלפון תקין');
+                playSound('error'); // סאונד שגיאה
+                return;
+            }
+
+            // 2. מצב טעינה
+            const originalBtnText = loginBtn.innerHTML;
+            loginBtn.disabled = true;
+            loginBtn.innerHTML = '<span class="spinner"></span> בודק נתונים...';
+            phoneInput.disabled = true;
+            feedbackMessage.classList.remove('show');
+
+            try {
+                // 3. קריאה ל"שרת" וקבלת אובייקט משתמש
+                const user = await getUserFromServer(phone);
+
+                if (user) {
+                    // -- תרחיש הצלחה --
+                    playSound('success'); // סאונד הצלחה
+                    showFeedback('success', `מזוהה: ${user.name}, מתחבר...`);
+                    
+                    setTimeout(() => {
+                        // החלפת תוכן הכרטיס להודעת הצלחה אישית
+                        loginCard.innerHTML = `
+                            <div class="p-8 py-12 fade-in-up">
+                                <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 text-green-500 shadow-sm">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                                <h2 class="text-3xl font-bold text-gray-800 mb-2">היי, ${user.name}!</h2>
+                                <p class="text-gray-500 mb-6">הזיהוי בוצע בהצלחה.<br>ניגש לנתוני הפיילוט...</p>
+                                <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700 mt-4 overflow-hidden">
+                                  <div class="bg-lok-primary h-1.5 rounded-full" style="width: 45%; animation: progress 2s ease-in-out infinite;"></div>
+                                </div>
+                            </div>
+                        `;
+                        
+                        // הוספת CSS לאנימציית הפס התקדמות באופן דינמי אם צריך, או שימוש בקיים
+                        const style = document.createElement('style');
+                        style.innerHTML = `
+                            @keyframes progress {
+                                0% { width: 0%; transform: translateX(-100%); }
+                                100% { width: 100%; transform: translateX(100%); }
+                            }
+                        `;
+                        document.head.appendChild(style);
+
+                    }, 1200);
+
+                } else {
+                    // -- תרחיש כישלון --
+                    playSound('error'); // סאונד שגיאה
+                    showFeedback('error', 'מספר טלפון לא קיים במערכת');
+                    
+                    // החזרת הכפתור למצב רגיל
+                    loginBtn.disabled = false;
+                    loginBtn.innerHTML = originalBtnText;
+                    phoneInput.disabled = false;
+                    phoneInput.focus();
+                }
+
+            } catch (error) {
+                console.error(error);
+                playSound('error');
+                showFeedback('error', 'אירעה שגיאת תקשורת');
+                loginBtn.disabled = false;
+                loginBtn.innerHTML = originalBtnText;
+                phoneInput.disabled = false;
+            }
+        });
+
+        // פוקוס אוטומטי בטעינה
+        document.addEventListener('DOMContentLoaded', () => {
+            phoneInput.focus();
+        });
+    </script>
+</body>
+</html>

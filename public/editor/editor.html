@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>עורך פיילוט LOOK</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+    <div class="editor-shell">
+        <div class="panel">
+            <h1>עורך נתוני הפיילוט</h1>
+            <p>טען, עדכן והורד את הקובץ <code>data/pilot.json</code>. אין ספריות חיצוניות – הכול כאן.</p>
+            <div id="status" class="status">בהמתנה לטעינה...</div>
+        </div>
+
+        <div class="panel">
+            <h2>שדות בסיס</h2>
+            <div class="grid two">
+                <div>
+                    <label for="title">כותרת</label>
+                    <input id="title" name="title" type="text" placeholder="פיילוט LOOK 2025">
+                </div>
+                <div>
+                    <label for="subtitle">תת כותרת</label>
+                    <input id="subtitle" name="subtitle" type="text" placeholder="סקירת A/B">
+                </div>
+                <div>
+                    <label for="start">תאריך התחלה</label>
+                    <input id="start" name="start" type="date">
+                </div>
+                <div>
+                    <label for="end">תאריך סיום</label>
+                    <input id="end" name="end" type="date">
+                </div>
+                <div>
+                    <label for="default-session">סשן ברירת מחדל</label>
+                    <input id="default-session" name="default-session" type="text" placeholder="All">
+                </div>
+            </div>
+            <div class="controls">
+                <span class="file-input">
+                    <button type="button" class="secondary" id="load-file-btn">טעינת pilot.json</button>
+                    <input type="file" id="file-input" accept="application/json" style="display:none;">
+                </span>
+                <button type="button" id="save-file-btn">שמירה ל-pilot.json</button>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h2>מדדי הירו</h2>
+            <p>כרטיסי הפתיחה שבדף הראשי.</p>
+            <div id="counters-list" class="list"></div>
+            <div class="controls">
+                <button type="button" id="add-counter">הוסף מדד הירו</button>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h2>ביצועים כלליים</h2>
+            <p>המדדים המרוכזים שנראים מתחת להירו.</p>
+            <div id="overall-list" class="list"></div>
+            <div class="controls">
+                <button type="button" id="add-overall">הוסף מדד</button>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h2>JSON מלא</h2>
+            <p>ערוך כאן נתונים מתקדמים (עסקים, רכב, גיאוגרפיה, סשנים, סיכום).</p>
+            <textarea id="json-area" spellcheck="false"></textarea>
+            <div class="controls">
+                <button type="button" id="apply-json">החל מהטקסט</button>
+                <button type="button" class="secondary" id="refresh-json">רענן מהשדות</button>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h2>תצוגה מקדימה חיה</h2>
+            <div id="preview" class="preview">הנתונים יופיעו כאן.</div>
+        </div>
+        <div class="panel">
+            <h2>ניהול משתמשים / גישה</h2>
+            <p>רשימת משתמשים מאושרים (שם + טלפון) עם שמירה ל-data/users.json.</p>
+            <div id="users-list" class="list"></div>
+            <div class="controls">
+                <button type="button" id="add-user">הוסף משתמש</button>
+                <button type="button" class="secondary" id="save-users">שמירת users.json</button>
+            </div>
+            <div class="status" id="users-status"></div>
+        </div>
+    </div>
+
+    <script src="editor.js"></script>
+</body>
+</html>

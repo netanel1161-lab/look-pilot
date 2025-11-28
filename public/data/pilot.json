@@ -1,0 +1,135 @@
+{
+  "title": "פיילוט LOOK 2025",
+  "subtitle": "סקירת A/B עם 21 עסקים ו-3 תסריטים",
+  "period": {
+    "start": "2025-11-01",
+    "end": "2025-12-31"
+  },
+  "hero": {
+    "summary": "התנסות חיה עם קבצי QR ומסרים ייעודיים.",
+    "counters": [
+      { "label": "עסקים משתתפים", "value": 21, "tone": "primary" },
+      { "label": "משך הפיילוט", "value": "30 ימים", "tone": "secondary" },
+      { "label": "תאריך סיום", "value": "01/12/2025", "note": "כולל הארכה", "tone": "muted" }
+    ],
+    "filters": ["All", "Oshi", "Lottery", "Message"]
+  },
+  "overall": [
+    { "label": "הדפסות QR", "value": 4120, "note": "יעד 5,000", "tone": "primary" },
+    { "label": "כניסות ממוקדות", "value": 1480, "note": "CTR ממוצע 38%", "tone": "secondary" },
+    { "label": "שיתופים", "value": 810, "note": "+20% לעומת שבוע קודם", "tone": "success" },
+    { "label": "נטישה", "value": 1167, "note": "מעקב Bounce", "tone": "danger" }
+  ],
+  "businesses": [
+    {
+      "id": "Oshi",
+      "name": "Oshi",
+      "tagline": "רשת מסעדות אסייתית",
+      "summary": "7 קמפיינים פעילים, 2 תסריטי A/B, קהלים אורבניים.",
+      "kpis": [
+        { "label": "הדפסות QR", "value": "1,500" },
+        { "label": "CTR", "value": "37%" },
+        { "label": "זמן בדף", "value": "55 שניות" },
+        { "label": "שיתופים", "value": 280 }
+      ],
+      "abTest": {
+        "winner": "A",
+        "note": "CTA קצרה עם צבע כהה העלתה את שיעור הלחיצה.",
+        "variants": [
+          { "name": "A", "result": "41% CTR" },
+          { "name": "B", "result": "32% CTR" }
+        ]
+      },
+      "visual": "מדבקת רכב – עיצוב כחול כהה"
+    },
+    {
+      "id": "Lottery",
+      "name": "Lottery",
+      "tagline": "הגרלות יומיות",
+      "summary": "קמפיין מבוסס פרסים עם הצעת ערך מהירה.",
+      "kpis": [
+        { "label": "כניסות", "value": "920" },
+        { "label": "CTR", "value": "33%" },
+        { "label": "זמן בדף", "value": "42 שניות" },
+        { "label": "שיתופים", "value": 210 }
+      ],
+      "abTest": {
+        "winner": "B",
+        "note": "מסר בהיר עם קריאה לפרס זכתה ביותר המרות.",
+        "variants": [
+          { "name": "A", "result": "28% CTR" },
+          { "name": "B", "result": "35% CTR" }
+        ]
+      },
+      "visual": "פוסטר צבעוני עם פרס מרכזי"
+    },
+    {
+      "id": "Message",
+      "name": "Message",
+      "tagline": "מסר שירות קצר",
+      "summary": "מיקוד ללקוחות קיימים – דגש על חוויית שירות.",
+      "kpis": [
+        { "label": "כניסות", "value": "680" },
+        { "label": "CTR", "value": "30%" },
+        { "label": "זמן בדף", "value": "1:30 דקות" },
+        { "label": "שיתופים", "value": 140 }
+      ],
+      "abTest": {
+        "winner": "A",
+        "note": "כותרת קצרה + תמונת צוות הפחיתה נטישה.",
+        "variants": [
+          { "name": "A", "result": "30% CTR" },
+          { "name": "B", "result": "24% CTR" }
+        ]
+      },
+      "visual": "כרטיס ברכה עם צבע משני"
+    }
+  ],
+  "vehicles": {
+    "note": "דגמי קרוסאובר והיבריד מובילים בקליקים ובזמן שהיה.",
+    "topList": [
+      { "model": "MG EHS", "segment": "Crossover", "ctr": "41%", "leads": 82 },
+      { "model": "Mazda 3", "segment": "Sedan", "ctr": "33%", "leads": 65 },
+      { "model": "Jeep Renegade", "segment": "SUV", "ctr": "29%", "leads": 54 }
+    ],
+    "table": [
+      { "model": "MG EHS", "clicks": 410, "ctr": "41%", "leads": 82 },
+      { "model": "Mazda 3", "clicks": 300, "ctr": "33%", "leads": 65 },
+      { "model": "Jeep Renegade", "clicks": 280, "ctr": "29%", "leads": 54 },
+      { "model": "Hyundai Ioniq", "clicks": 200, "ctr": "24%", "leads": 44 },
+      { "model": "Subaru XV", "clicks": 180, "ctr": "22%", "leads": 38 }
+    ]
+  },
+  "geo": [
+    { "region": "תל אביב", "leads": 120, "share": "42%" },
+    { "region": "חיפה", "leads": 80, "share": "28%" },
+    { "region": "באר שבע", "leads": 56, "share": "18%" },
+    { "region": "ירושלים", "leads": 30, "share": "12%" }
+  ],
+  "sessions": {
+    "default": "All",
+    "segments": {
+      "All": { "conversion": "38%", "bounce": "28%", "avgTime": "48 שניות", "summary": "רוב הכניסות ממובייל עם זמן שהיה קצר יחסית." },
+      "Oshi": { "conversion": "37%", "bounce": "20%", "avgTime": "55 שניות", "summary": "לקוחות חוזרים מגיבים להצעת ערך קצרה עם צבע כהה." },
+      "Lottery": { "conversion": "28%", "bounce": "40%", "avgTime": "32 שניות", "summary": "נדרש חידוד פרס פתיחה והורדת הסחות." },
+      "Message": { "conversion": "30%", "bounce": "25%", "avgTime": "1:30 דקות", "summary": "תוכן קצר עם קריאה ברורה עובד טוב בשירות." }
+    }
+  },
+  "actions": {
+    "wins": [
+      "גרסה A ל-Oshi העלתה CTR ב-9% מול גרסה B.",
+      "הוספת אייקון QR שיפרה את זמן השהייה ב-11%.",
+      "התאמת צבעי מסר לשפה של המותג הפחיתה נטישה."
+    ],
+    "next": [
+      "לבחון פריסת גרסה A בארבעה סניפים נוספים.",
+      "להפעיל טסט מהיר על נוסח CTA ממוקד פרס.",
+      "להוסיף מעקב מפה לניתוח עומק (מוכן לחיבור ל-API)."
+    ]
+  },
+  "conclusion": [
+    "הפיילוט מציג מגמה חיובית בגרסה הזוכה של Oshi.",
+    "מומלץ להרחיב לאזורים חדשים ולשמור מעקב שבועי.",
+    "הקבצים והמבנה מוכנים לחיבור ישיר לפייתון או API."
+  ]
+}

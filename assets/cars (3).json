@@ -1,0 +1,5282 @@
+[
+  {
+    "make": "Abarth",
+    "modelFamily": "124 Spider",
+    "modelVariant": ""
+  },
+  {
+    "make": "Abarth",
+    "modelFamily": "500",
+    "modelVariant": ""
+  },
+  {
+    "make": "Abarth",
+    "modelFamily": "500E",
+    "modelVariant": ""
+  },
+  {
+    "make": "Abarth",
+    "modelFamily": "595",
+    "modelVariant": ""
+  },
+  {
+    "make": "Abarth",
+    "modelFamily": "695",
+    "modelVariant": ""
+  },
+  {
+    "make": "Abarth",
+    "modelFamily": "Fonto Ivo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Acura",
+    "modelFamily": "Integra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Acura",
+    "modelFamily": "MDX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Aiways",
+    "modelFamily": "U5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Aiways",
+    "modelFamily": "U6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "145",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "146",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "147",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "156",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "159",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "166",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "4C",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "75",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "GT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "GTV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "Julia",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "Juliette",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "Junior",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "Mito",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "Spider",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "Stalbio",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "Tonella",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alfa Romeo",
+    "modelFamily": "choice",
+    "modelVariant": ""
+  },
+  {
+    "make": "Alpine",
+    "modelFamily": "A110",
+    "modelVariant": ""
+  },
+  {
+    "make": "Aston Martin",
+    "modelFamily": "DB11",
+    "modelVariant": ""
+  },
+  {
+    "make": "Aston Martin",
+    "modelFamily": "DB12",
+    "modelVariant": ""
+  },
+  {
+    "make": "Aston Martin",
+    "modelFamily": "DB9",
+    "modelVariant": ""
+  },
+  {
+    "make": "Aston Martin",
+    "modelFamily": "DBS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Aston Martin",
+    "modelFamily": "DBX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Aston Martin",
+    "modelFamily": "Rapide",
+    "modelVariant": ""
+  },
+  {
+    "make": "Aston Martin",
+    "modelFamily": "Vancwish",
+    "modelVariant": ""
+  },
+  {
+    "make": "Aston Martin",
+    "modelFamily": "Ventge",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "100",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "80",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "A1",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "A3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "A4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "A5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "A6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "A6 e-tron",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "A7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "A8",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "E-tron",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "E-tron GT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "Q2",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "Q3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "Q4 e-tron",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "Q5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "Q7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "Q8",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "Q8 e-tron",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "R8",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "RS 3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "RS 4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "RS 5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "RS 6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "RS 7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "RS E-tron GT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "RS Q3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "RS Q8",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "S1",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "S3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "S4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "S5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "S6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "S7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "S8",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "SQ2",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "SQ5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "SQ7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "SQ8",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "SQ8 e-tron",
+    "modelVariant": ""
+  },
+  {
+    "make": "Audi",
+    "modelFamily": "TT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Autobianchi",
+    "modelFamily": "Y10",
+    "modelVariant": ""
+  },
+  {
+    "make": "Automotive Industries",
+    "modelFamily": "storm",
+    "modelVariant": ""
+  },
+  {
+    "make": "BAW",
+    "modelFamily": "pony",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "I5",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "IX1",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "M2",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "M3",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "M4",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "M5",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "M6",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "M8",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "Series 1",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "Series 2",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "Series 3",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "Series 4",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "Series 5",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "Series 6",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "Series 7",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "Series 8",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X1",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X2",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X3",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X3 M",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X4",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X4 M",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X5",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X5 M",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X6",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X6 M",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "X7",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "XM",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "Z3",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "Z4",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "i3",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "i4",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "i7",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "i8",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "iX",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "iX2",
+    "modelVariant": ""
+  },
+  {
+    "make": "BMW",
+    "modelFamily": "iX3",
+    "modelVariant": ""
+  },
+  {
+    "make": "BYD",
+    "modelFamily": "Ato 3",
+    "modelVariant": ""
+  },
+  {
+    "make": "BYD",
+    "modelFamily": "ETP3",
+    "modelVariant": ""
+  },
+  {
+    "make": "BYD",
+    "modelFamily": "Han",
+    "modelVariant": ""
+  },
+  {
+    "make": "BYD",
+    "modelFamily": "Sil",
+    "modelVariant": ""
+  },
+  {
+    "make": "BYD",
+    "modelFamily": "Tang",
+    "modelVariant": ""
+  },
+  {
+    "make": "BYD",
+    "modelFamily": "Ul u",
+    "modelVariant": ""
+  },
+  {
+    "make": "BYD",
+    "modelFamily": "dolphin",
+    "modelVariant": ""
+  },
+  {
+    "make": "Bentley",
+    "modelFamily": "A few flying",
+    "modelVariant": ""
+  },
+  {
+    "make": "Bentley",
+    "modelFamily": "Bentiga",
+    "modelVariant": ""
+  },
+  {
+    "make": "Bentley",
+    "modelFamily": "Continental",
+    "modelVariant": ""
+  },
+  {
+    "make": "Bentley",
+    "modelFamily": "Continental GT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Buick",
+    "modelFamily": "Ancliev",
+    "modelVariant": ""
+  },
+  {
+    "make": "Buick",
+    "modelFamily": "Avnio Park",
+    "modelVariant": ""
+  },
+  {
+    "make": "Buick",
+    "modelFamily": "La Cross",
+    "modelVariant": ""
+  },
+  {
+    "make": "Buick",
+    "modelFamily": "La Cyber",
+    "modelVariant": ""
+  },
+  {
+    "make": "Buick",
+    "modelFamily": "Lucerne",
+    "modelVariant": ""
+  },
+  {
+    "make": "Buick",
+    "modelFamily": "Rando",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "ATS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "CT5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "CT6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "CTS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "DTS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "Esklade",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "Powerwood",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "SRX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "STS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "Swill",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "XT4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "XT5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "XT6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cadillac",
+    "modelFamily": "XTS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cenntro",
+    "modelFamily": "Logistar 100",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cenntro",
+    "modelFamily": "Logistar 200",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cenntro",
+    "modelFamily": "Metro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chery",
+    "modelFamily": "Arizo 8",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chery",
+    "modelFamily": "FX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chery",
+    "modelFamily": "Tago 7 Peru",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chery",
+    "modelFamily": "Tago 8 Peru",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chery",
+    "modelFamily": "Tiago 4 Pro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "A channel",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "A rash",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Alender",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Alro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "And Juant/Rezu",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Aquinox",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Astro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Camaro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Caparta",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Colorado",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Corsica",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Corvette",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Cruz",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Father",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Impla",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Kowell",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Laser",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Laser trail",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Lumina",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Malibu",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Monte Carlo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "OPTra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Orlando",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Prominent EV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Prominent euv",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Savannah",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Silverdo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Silverido EV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Sonic",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Spark",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Taho",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Travers",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "Trax",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chevrolet",
+    "modelFamily": "volt",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "300",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "300M",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "Crossfire",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "Grand Voyager",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "PT Cruiser",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "Pacific",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "Sabring",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "Scalaga",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "Stratus",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "Town and Country",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "Vajer",
+    "modelVariant": ""
+  },
+  {
+    "make": "Chrysler",
+    "modelFamily": "neon",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "A nailing",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "AX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "Berlingo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C crosnic",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C elese",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C-Ziro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C1",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C15",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C2",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C3 Aircross",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C4x",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C5 Aircross",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "C8",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "DS3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "DS4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "DS5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "Jumpy",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "Sexo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "XM",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "Xantia",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "ZX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "e-C4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Citroen",
+    "modelFamily": "e-C4 X",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cupra",
+    "modelFamily": "Atka",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cupra",
+    "modelFamily": "Borne",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cupra",
+    "modelFamily": "Formmantore",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cupra",
+    "modelFamily": "Leon",
+    "modelVariant": ""
+  },
+  {
+    "make": "Cupra",
+    "modelFamily": "Tower",
+    "modelVariant": ""
+  },
+  {
+    "make": "DS",
+    "modelFamily": "3",
+    "modelVariant": ""
+  },
+  {
+    "make": "DS",
+    "modelFamily": "4",
+    "modelVariant": ""
+  },
+  {
+    "make": "DS",
+    "modelFamily": "5",
+    "modelVariant": ""
+  },
+  {
+    "make": "DS",
+    "modelFamily": "7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dacia",
+    "modelFamily": "A stabbing",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dacia",
+    "modelFamily": "Dust",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dacia",
+    "modelFamily": "Jugger",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dacia",
+    "modelFamily": "Lodge",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dacia",
+    "modelFamily": "Logan",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dacia",
+    "modelFamily": "Sandro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dacia",
+    "modelFamily": "Sandro Stepway",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dacia",
+    "modelFamily": "Spring",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Charman",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Corndo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "For the stagnation",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "I will tell",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Matisse",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Mosso",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Nexiya",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Novira",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Prince",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Raiser",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Super living room",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Tacoma",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "Tico",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daewoo",
+    "modelFamily": "rape",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daihatsu",
+    "modelFamily": "Aflas",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daihatsu",
+    "modelFamily": "Grand is led",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daihatsu",
+    "modelFamily": "Matriya",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daihatsu",
+    "modelFamily": "Sherid",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daihatsu",
+    "modelFamily": "Sir",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daihatsu",
+    "modelFamily": "Trios",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daihatsu",
+    "modelFamily": "YRV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daihatsu",
+    "modelFamily": "beam",
+    "modelVariant": ""
+  },
+  {
+    "make": "Daihatsu",
+    "modelFamily": "prose",
+    "modelVariant": ""
+  },
+  {
+    "make": "Deepal",
+    "modelFamily": "S07",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dodge",
+    "modelFamily": "Aenger",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dodge",
+    "modelFamily": "Calibar",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dodge",
+    "modelFamily": "Charger",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dodge",
+    "modelFamily": "Chelnger",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dodge",
+    "modelFamily": "Cravan",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dodge",
+    "modelFamily": "Durango",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dodge",
+    "modelFamily": "Jarney",
+    "modelVariant": ""
+  },
+  {
+    "make": "Dodge",
+    "modelFamily": "Nitro",
+    "modelVariant": ""
+  },
+  {
+    "make": "DongFeng",
+    "modelFamily": "Box",
+    "modelVariant": ""
+  },
+  {
+    "make": "DongFeng",
+    "modelFamily": "C31",
+    "modelVariant": ""
+  },
+  {
+    "make": "DongFeng",
+    "modelFamily": "C32",
+    "modelVariant": ""
+  },
+  {
+    "make": "DongFeng",
+    "modelFamily": "C35",
+    "modelVariant": ""
+  },
+  {
+    "make": "DongFeng",
+    "modelFamily": "Glory 580",
+    "modelVariant": ""
+  },
+  {
+    "make": "DongFeng",
+    "modelFamily": "KO1",
+    "modelVariant": ""
+  },
+  {
+    "make": "DongFeng",
+    "modelFamily": "KO2",
+    "modelVariant": ""
+  },
+  {
+    "make": "DongFeng",
+    "modelFamily": "KO5",
+    "modelVariant": ""
+  },
+  {
+    "make": "DongFeng",
+    "modelFamily": "MHERO 1",
+    "modelVariant": ""
+  },
+  {
+    "make": "EVeasy",
+    "modelFamily": "Limo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "296 GTB",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "458",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "488",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "575m Marinloo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "812 GTS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "812 superpast",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "California",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "F12",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "F8 Spider",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "F8 tributo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "GTC4Lusso",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "GTS 296",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "Porosangova",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "Portfino",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "Rome",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ferrari",
+    "modelFamily": "SF90",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "500",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "500E",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "500L",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "500X",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "A lung",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Albaa",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Brave",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Bravo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Chroma",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Dubllo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Ducato",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Fiorino",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Flio",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Fonto",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Kobo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Line",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Matrix",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Multiplaly",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Next to him",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Oliza",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Ono",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Panda",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Paulback",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Sidicy",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Skodo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Tampera",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "Tipo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "V60SP",
+    "modelVariant": ""
+  },
+  {
+    "make": "Fiat",
+    "modelFamily": "box office",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Bronco",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Bronco Sports",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Ecooline",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Edge",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Escort",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Eskip",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Exapidation",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Explorer",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "F-150",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "F-250",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "F-350",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Fiesta",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Fusion",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Galaxy",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Koga",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Mabrik",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Mondeo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Mustang Mach-E",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Ranger",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "S-Max",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Taurus",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Tornau Concert",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Tracer",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Transit Costum",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "Windstar",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "focus",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "mustang",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "puma",
+    "modelVariant": ""
+  },
+  {
+    "make": "Ford",
+    "modelFamily": "transit",
+    "modelVariant": ""
+  },
+  {
+    "make": "Forthing",
+    "modelFamily": "Friday",
+    "modelVariant": ""
+  },
+  {
+    "make": "Forthing",
+    "modelFamily": "S7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Foton",
+    "modelFamily": "Vi",
+    "modelVariant": ""
+  },
+  {
+    "make": "Foton",
+    "modelFamily": "eTunland",
+    "modelVariant": ""
+  },
+  {
+    "make": "GAC",
+    "modelFamily": "GE3",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Acadia",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Hummer EV",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Jimmy",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Sabanbon",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Safari",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Savannah",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Sierra",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Sierra EV",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Sonoma",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Vandora",
+    "modelVariant": ""
+  },
+  {
+    "make": "GMC",
+    "modelFamily": "Yukon",
+    "modelVariant": ""
+  },
+  {
+    "make": "Geely",
+    "modelFamily": "Geometry C",
+    "modelVariant": ""
+  },
+  {
+    "make": "Genesis",
+    "modelFamily": "G70",
+    "modelVariant": ""
+  },
+  {
+    "make": "Genesis",
+    "modelFamily": "G80",
+    "modelVariant": ""
+  },
+  {
+    "make": "Genesis",
+    "modelFamily": "G90",
+    "modelVariant": ""
+  },
+  {
+    "make": "Genesis",
+    "modelFamily": "GV60",
+    "modelVariant": ""
+  },
+  {
+    "make": "Genesis",
+    "modelFamily": "GV70",
+    "modelVariant": ""
+  },
+  {
+    "make": "Genesis",
+    "modelFamily": "GV80",
+    "modelVariant": ""
+  },
+  {
+    "make": "Great Wall",
+    "modelFamily": "C10",
+    "modelVariant": ""
+  },
+  {
+    "make": "Great Wall",
+    "modelFamily": "Colbert",
+    "modelVariant": ""
+  },
+  {
+    "make": "Great Wall",
+    "modelFamily": "Florid",
+    "modelVariant": ""
+  },
+  {
+    "make": "Great Wall",
+    "modelFamily": "Hoover H6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Great Wall",
+    "modelFamily": "Slam",
+    "modelVariant": ""
+  },
+  {
+    "make": "HONGQI",
+    "modelFamily": "E-HS9",
+    "modelVariant": ""
+  },
+  {
+    "make": "HONGQI",
+    "modelFamily": "EHS7",
+    "modelVariant": ""
+  },
+  {
+    "make": "HONGQI",
+    "modelFamily": "Were institutionalized",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "A pilot",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "CR-V",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "CR-Z",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "City",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "Civic",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "Civic Type R",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "FR-V",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "HR-V",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "Insight",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "Odisay",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "Perrod",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "S2000",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "Shatel",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "To gande",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "chord",
+    "modelVariant": ""
+  },
+  {
+    "make": "Honda",
+    "modelFamily": "gas",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hummer",
+    "modelFamily": "H1",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hummer",
+    "modelFamily": "H2",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hummer",
+    "modelFamily": "H3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "A extra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "A stars",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Alanterra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "And Lost",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "And New and New",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Atos",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Axant I25",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Galloper",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Gats",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Genesis",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Grander",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "H-1 / i800",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "H100",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "H350",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "I20 Cross",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "I20N",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "I30N",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "I35",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "In a sample",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Lanterra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Matrix",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Playwade",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Santa here",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Taraka",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Toson",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Tragedy",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Unique",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Unique 5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Unique 5 n",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "Unique 6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "box office",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "buyer",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "i10",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "i20",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "i30",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "i40",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "ix20",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "ix35",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "ix55",
+    "modelVariant": ""
+  },
+  {
+    "make": "Hyundai",
+    "modelFamily": "sonnet",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "EX37",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "FX35",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "FX37",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "FX50",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "G37",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "Q30",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "Q50",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "Q60",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "Q70",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "QX30",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "QX50",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "QX55",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "QX60",
+    "modelVariant": ""
+  },
+  {
+    "make": "Infiniti",
+    "modelFamily": "QX70",
+    "modelVariant": ""
+  },
+  {
+    "make": "Isuzu",
+    "modelFamily": "Axium",
+    "modelVariant": ""
+  },
+  {
+    "make": "Isuzu",
+    "modelFamily": "Di-max",
+    "modelVariant": ""
+  },
+  {
+    "make": "Isuzu",
+    "modelFamily": "IPhone",
+    "modelVariant": ""
+  },
+  {
+    "make": "Isuzu",
+    "modelFamily": "Trooper",
+    "modelVariant": ""
+  },
+  {
+    "make": "Isuzu",
+    "modelFamily": "rodeo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Iveco",
+    "modelFamily": "Daily",
+    "modelVariant": ""
+  },
+  {
+    "make": "Iveco",
+    "modelFamily": "Masif",
+    "modelVariant": ""
+  },
+  {
+    "make": "JAC",
+    "modelFamily": "30",
+    "modelVariant": ""
+  },
+  {
+    "make": "JAC",
+    "modelFamily": "E-JS4",
+    "modelVariant": ""
+  },
+  {
+    "make": "JAC",
+    "modelFamily": "E-S2",
+    "modelVariant": ""
+  },
+  {
+    "make": "JAC",
+    "modelFamily": "E-S4",
+    "modelVariant": ""
+  },
+  {
+    "make": "JAC",
+    "modelFamily": "IC5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaecoo",
+    "modelFamily": "J7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaguar",
+    "modelFamily": "E-Pace",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaguar",
+    "modelFamily": "F-Pace",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaguar",
+    "modelFamily": "F-type",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaguar",
+    "modelFamily": "I-Pace",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaguar",
+    "modelFamily": "S-type",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaguar",
+    "modelFamily": "X-type",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaguar",
+    "modelFamily": "XE",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaguar",
+    "modelFamily": "XF",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaguar",
+    "modelFamily": "XJ",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jaguar",
+    "modelFamily": "XK",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "Avant -garde",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "Chiroki",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "Commander",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "Compass",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "Grand Cherokee",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "Grand Wagonir",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "Rangler",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "Rangyide",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "Vagonir",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "gladiator",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jeep",
+    "modelFamily": "patriot",
+    "modelVariant": ""
+  },
+  {
+    "make": "Jiayuan",
+    "modelFamily": "comical",
+    "modelVariant": ""
+  },
+  {
+    "make": "KGM",
+    "modelFamily": "Mosso",
+    "modelVariant": ""
+  },
+  {
+    "make": "KGM",
+    "modelFamily": "Recouston",
+    "modelVariant": ""
+  },
+  {
+    "make": "KGM",
+    "modelFamily": "Tiboli",
+    "modelVariant": ""
+  },
+  {
+    "make": "KGM",
+    "modelFamily": "Torres",
+    "modelVariant": ""
+  },
+  {
+    "make": "Karma",
+    "modelFamily": "GS-6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Carnes",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Carnival",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Clarus",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "EV6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "EV9",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Ferjio",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Freud",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "G",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Joyce",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "K2500",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "K9",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Kadenza",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Maganis",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Mentor/spa",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Niro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Niro plus",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Ophirus",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Optima",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Picanto",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Rio",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Salus",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Sarato",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Sorrento",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Sportage",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Stinger",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Stonick",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "Taloride",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "XCeed",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "assessment",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "forte",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "lime",
+    "modelVariant": ""
+  },
+  {
+    "make": "Kia",
+    "modelFamily": "ספיה",
+    "modelVariant": ""
+  },
+  {
+    "make": "LEVC",
+    "modelFamily": "TX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lada",
+    "modelFamily": "2108",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lada",
+    "modelFamily": "2109",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lada",
+    "modelFamily": "Nica",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lada",
+    "modelFamily": "Samara",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lamborghini",
+    "modelFamily": "Horcan",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lamborghini",
+    "modelFamily": "ORos",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lamborghini",
+    "modelFamily": "Roloto",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lancia",
+    "modelFamily": "Dadra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lancia",
+    "modelFamily": "Epsilon",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lancia",
+    "modelFamily": "Kappa",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lancia",
+    "modelFamily": "delta",
+    "modelVariant": ""
+  },
+  {
+    "make": "Land Rover",
+    "modelFamily": "Diplander",
+    "modelVariant": ""
+  },
+  {
+    "make": "Land Rover",
+    "modelFamily": "Discovery",
+    "modelVariant": ""
+  },
+  {
+    "make": "Land Rover",
+    "modelFamily": "Perlerlander",
+    "modelVariant": ""
+  },
+  {
+    "make": "Land Rover",
+    "modelFamily": "Range Rover",
+    "modelVariant": ""
+  },
+  {
+    "make": "Land Rover",
+    "modelFamily": "Range Rover Iwan",
+    "modelVariant": ""
+  },
+  {
+    "make": "Land Rover",
+    "modelFamily": "Range Rover Sports",
+    "modelVariant": ""
+  },
+  {
+    "make": "Land Rover",
+    "modelFamily": "Range Rover and Lar",
+    "modelVariant": ""
+  },
+  {
+    "make": "Land Rover",
+    "modelFamily": "Sports Discovery",
+    "modelVariant": ""
+  },
+  {
+    "make": "Leapmotor",
+    "modelFamily": "C10",
+    "modelVariant": ""
+  },
+  {
+    "make": "Leapmotor",
+    "modelFamily": "T03",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "CT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "ES",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "GS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "GX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "IS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "LBX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "LC",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "LM350H",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "LS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "LX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "NX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "RC",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "RX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "RZ",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "SC",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "TX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lexus",
+    "modelFamily": "UX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lincoln",
+    "modelFamily": "Abiator",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lincoln",
+    "modelFamily": "LS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lincoln",
+    "modelFamily": "MKC",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lincoln",
+    "modelFamily": "MKS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lincoln",
+    "modelFamily": "MKT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lincoln",
+    "modelFamily": "MKZ",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lincoln",
+    "modelFamily": "Nabligator",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lincoln",
+    "modelFamily": "Town Car",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lincoln",
+    "modelFamily": "Zepir",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lotus",
+    "modelFamily": "statement",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lynk & Co",
+    "modelFamily": "01",
+    "modelVariant": ""
+  },
+  {
+    "make": "Lynk & Co",
+    "modelFamily": "02",
+    "modelVariant": ""
+  },
+  {
+    "make": "MAN",
+    "modelFamily": "TGE",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "350",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "550",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "EHS PHEV",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "MG3",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "MG4",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "MG5",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "Marvel r",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "RX5",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "ZR",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "ZS",
+    "modelVariant": ""
+  },
+  {
+    "make": "MG",
+    "modelFamily": "ZT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maserati",
+    "modelFamily": "Giblly",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maserati",
+    "modelFamily": "Gramerkala",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maserati",
+    "modelFamily": "Gran-Cibro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maserati",
+    "modelFamily": "Gran-Torismo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maserati",
+    "modelFamily": "Levanta",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maserati",
+    "modelFamily": "MC20",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maserati",
+    "modelFamily": "Quatroporta",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maxus",
+    "modelFamily": "7th 7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maxus",
+    "modelFamily": "Delibri Island 7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maxus",
+    "modelFamily": "Delibri Island 9",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maxus",
+    "modelFamily": "Iwor 3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maxus",
+    "modelFamily": "Iwor 5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maxus",
+    "modelFamily": "Matte 9",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maxus",
+    "modelFamily": "Unique 5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maxus",
+    "modelFamily": "Unique 6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Maxus",
+    "modelFamily": "V80",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "121",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "2",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "323",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "626",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "B-series",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "BT-50",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "CX-3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "CX-30",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "CX-5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "CX-50",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "CX-60",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "CX-9",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "CX-90",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "Cassados ​​6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "Cassados ​​9",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "His imagination",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "MPV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "MX-3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "MX-30",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "MX-5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "Parmesi",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mazda",
+    "modelFamily": "TRABUE",
+    "modelVariant": ""
+  },
+  {
+    "make": "McLaren",
+    "modelFamily": "720S",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "A-class",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "AMG GT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "Amg gt 4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "B-class",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "C-class",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "CL",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "CLA",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "CLC",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "CLE",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "CLK",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "CLS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "E-class",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "EQA",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "EQB",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "EQC",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "EQE",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "EQE SUV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "EQS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "EQS SUV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "EQV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "G-class",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "GL",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "GLA",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "GLB",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "GLC",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "GLC Coupe",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "GLE",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "GLE Coupe",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "GLK",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "GLS",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "ML",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "Mets",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "R-class",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "S-class",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "SL",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "SLC",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "SLK",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "SLS AMG",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "Sitan",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "Sprinter",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "V-class",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "Vario",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "Vino",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "Vito",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mercedes-Benz",
+    "modelFamily": "X-class",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mini",
+    "modelFamily": "Canteriman",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mini",
+    "modelFamily": "Clubman",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mini",
+    "modelFamily": "Cooper",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mini",
+    "modelFamily": "Copper Cabriolet",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mini",
+    "modelFamily": "Copper SE (electric)",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mini",
+    "modelFamily": "Faceman",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mini",
+    "modelFamily": "Rhodster",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "3000 GT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "ASX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Ateraz",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Cross Eucafs",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Ecclesiacs",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Galant",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Grandis",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Kanter",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "L300",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "L400",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Losler Illhoshan",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Monto Sports",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Outlander",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Pagaro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Spice Chalk",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Spice Runner",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Spice Star",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Spice Wen",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "Super Lancer",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "TRIFE / L200",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "charisma",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "i-MiEV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "receptor",
+    "modelVariant": ""
+  },
+  {
+    "make": "Mitsubishi",
+    "modelFamily": "saw",
+    "modelVariant": ""
+  },
+  {
+    "make": "NIO",
+    "modelFamily": "EL6",
+    "modelVariant": ""
+  },
+  {
+    "make": "NIO",
+    "modelFamily": "EL7",
+    "modelVariant": ""
+  },
+  {
+    "make": "NIO",
+    "modelFamily": "ES8",
+    "modelVariant": ""
+  },
+  {
+    "make": "NIO",
+    "modelFamily": "ET5",
+    "modelVariant": ""
+  },
+  {
+    "make": "NIO",
+    "modelFamily": "ET7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nanjing",
+    "modelFamily": "City Spirit",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "200 SX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "370Z",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "A scales",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Almara",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Altima",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Armored",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Arrange",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Cabestar",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Chin",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Ex Trail",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Extra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "GT-R",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Jock",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Leaf",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Lovely",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Mica",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Murano",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "NV200",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Navarra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Pathfinder",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Polar",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Primra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Serena",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Tidy",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Trace",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "Winner",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "lion",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "navigator",
+    "modelVariant": ""
+  },
+  {
+    "make": "Nissan",
+    "modelFamily": "patrol",
+    "modelVariant": ""
+  },
+  {
+    "make": "ORA",
+    "modelFamily": "03",
+    "modelVariant": ""
+  },
+  {
+    "make": "ORA",
+    "modelFamily": "07",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "And Katra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "And heer",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Astra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Cascada",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Combo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Corsa",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Crossland",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Crossland X",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Grandland",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Insigania",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Mocha",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Pronotra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Tiger",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "We have been brought",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Zafira",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "Zapira Life",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "omega",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "person",
+    "modelVariant": ""
+  },
+  {
+    "make": "Opel",
+    "modelFamily": "quarrel",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "106",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "107",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "108",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "2008",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "205",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "206",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "207",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "208",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "3008",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "301",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "306",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "307",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "308",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "405",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "406",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "407",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "408",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "5008",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "508",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "605",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "607",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "Beef",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "Boxer",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "Expert",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "RCZ",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "Ripit",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "Trawler",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "iOn",
+    "modelVariant": ""
+  },
+  {
+    "make": "Peugeot",
+    "modelFamily": "partner",
+    "modelVariant": ""
+  },
+  {
+    "make": "Piaggio",
+    "modelFamily": "porter",
+    "modelVariant": ""
+  },
+  {
+    "make": "Polestar",
+    "modelFamily": "2",
+    "modelVariant": ""
+  },
+  {
+    "make": "Pontiac",
+    "modelFamily": "Grand Perry",
+    "modelVariant": ""
+  },
+  {
+    "make": "Pontiac",
+    "modelFamily": "Sultis",
+    "modelVariant": ""
+  },
+  {
+    "make": "Porsche",
+    "modelFamily": "718",
+    "modelVariant": ""
+  },
+  {
+    "make": "Porsche",
+    "modelFamily": "911",
+    "modelVariant": ""
+  },
+  {
+    "make": "Porsche",
+    "modelFamily": "911 Carrara",
+    "modelVariant": ""
+  },
+  {
+    "make": "Porsche",
+    "modelFamily": "Boxest",
+    "modelVariant": ""
+  },
+  {
+    "make": "Porsche",
+    "modelFamily": "Cayenne",
+    "modelVariant": ""
+  },
+  {
+    "make": "Porsche",
+    "modelFamily": "Kayiman",
+    "modelVariant": ""
+  },
+  {
+    "make": "Porsche",
+    "modelFamily": "McCann",
+    "modelVariant": ""
+  },
+  {
+    "make": "Porsche",
+    "modelFamily": "Panamara",
+    "modelVariant": ""
+  },
+  {
+    "make": "Porsche",
+    "modelFamily": "Tikan",
+    "modelVariant": ""
+  },
+  {
+    "make": "RAM",
+    "modelFamily": "1500",
+    "modelVariant": ""
+  },
+  {
+    "make": "RAM",
+    "modelFamily": "2500",
+    "modelVariant": ""
+  },
+  {
+    "make": "RAM",
+    "modelFamily": "3500",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "19",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Arcana",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Austral",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Cappuator",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Cleo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Culthus",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Flawans",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "For the dead",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Kadagar",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Kango",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Logan",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Magan",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Magan E-Tech",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Master",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Sandro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Snick",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Talia/symbol",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Trap",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Twingo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Wall-Setis",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "Zoe",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "express",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "lagoon",
+    "modelVariant": ""
+  },
+  {
+    "make": "Renault",
+    "modelFamily": "librarian",
+    "modelVariant": ""
+  },
+  {
+    "make": "Rolls-Royce",
+    "modelFamily": "A spectrum",
+    "modelVariant": ""
+  },
+  {
+    "make": "Rover",
+    "modelFamily": "200",
+    "modelVariant": ""
+  },
+  {
+    "make": "Rover",
+    "modelFamily": "25",
+    "modelVariant": ""
+  },
+  {
+    "make": "Rover",
+    "modelFamily": "400",
+    "modelVariant": ""
+  },
+  {
+    "make": "Rover",
+    "modelFamily": "420",
+    "modelVariant": ""
+  },
+  {
+    "make": "Rover",
+    "modelFamily": "45",
+    "modelVariant": ""
+  },
+  {
+    "make": "Rover",
+    "modelFamily": "600",
+    "modelVariant": ""
+  },
+  {
+    "make": "Rover",
+    "modelFamily": "75",
+    "modelVariant": ""
+  },
+  {
+    "make": "Rover",
+    "modelFamily": "800",
+    "modelVariant": ""
+  },
+  {
+    "make": "Rover",
+    "modelFamily": "MGF",
+    "modelVariant": ""
+  },
+  {
+    "make": "SWM",
+    "modelFamily": "G01",
+    "modelVariant": ""
+  },
+  {
+    "make": "SWM",
+    "modelFamily": "X30LEV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Saab",
+    "modelFamily": "9-3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Saab",
+    "modelFamily": "9-5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Saab",
+    "modelFamily": "900",
+    "modelVariant": ""
+  },
+  {
+    "make": "Saab",
+    "modelFamily": "9000",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "A goddess",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "Alhambra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "Aruna",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "Atka",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "Cordoba",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "Ibiza",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "Inca",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "Leon",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "Mii",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "Tasto",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seat",
+    "modelFamily": "Trap",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seres",
+    "modelFamily": "5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Seres",
+    "modelFamily": "EV-3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Aniak IV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Carok",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Citigo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Codiac",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Fabia",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Felicia",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Kamik",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Octavia",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Rapid",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Romster",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Scala",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Superb",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skoda",
+    "modelFamily": "Yite",
+    "modelVariant": ""
+  },
+  {
+    "make": "Skywell",
+    "modelFamily": "ET5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Smart",
+    "modelFamily": "#1",
+    "modelVariant": ""
+  },
+  {
+    "make": "Smart",
+    "modelFamily": "#3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Smart",
+    "modelFamily": "EQ Porto",
+    "modelVariant": ""
+  },
+  {
+    "make": "Smart",
+    "modelFamily": "Forfur",
+    "modelVariant": ""
+  },
+  {
+    "make": "Smart",
+    "modelFamily": "Porto",
+    "modelVariant": ""
+  },
+  {
+    "make": "SsangYong",
+    "modelFamily": "Action",
+    "modelVariant": ""
+  },
+  {
+    "make": "SsangYong",
+    "modelFamily": "Charman",
+    "modelVariant": ""
+  },
+  {
+    "make": "SsangYong",
+    "modelFamily": "Corndo",
+    "modelVariant": ""
+  },
+  {
+    "make": "SsangYong",
+    "modelFamily": "Kiron",
+    "modelVariant": ""
+  },
+  {
+    "make": "SsangYong",
+    "modelFamily": "Mosso",
+    "modelVariant": ""
+  },
+  {
+    "make": "SsangYong",
+    "modelFamily": "Recouston",
+    "modelVariant": ""
+  },
+  {
+    "make": "SsangYong",
+    "modelFamily": "Rodius",
+    "modelVariant": ""
+  },
+  {
+    "make": "SsangYong",
+    "modelFamily": "Tiboli",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "A pickup (Brett)",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "Abolis/Asant",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "B4/Legassi",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "BRZ",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "Carostrak",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "For the lobe",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "Forester",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "Imprence",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "Outback",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "Soltra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "To gallie",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "To the bourge",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "Trubka",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "WRX",
+    "modelVariant": ""
+  },
+  {
+    "make": "Subaru",
+    "modelFamily": "XV",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Alto",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Belino",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Celery",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Crossover",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Grand Vitra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Iganis",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Jimani",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Liana",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "S-Cross",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "SX4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Samurai",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Splash",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Swift",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Vitra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "Wagon R+",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "XL7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Suzuki",
+    "modelFamily": "curry",
+    "modelVariant": ""
+  },
+  {
+    "make": "Tata",
+    "modelFamily": "Safari",
+    "modelVariant": ""
+  },
+  {
+    "make": "Tata",
+    "modelFamily": "Sierra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Tata",
+    "modelFamily": "Sumo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Tata",
+    "modelFamily": "Telekoline",
+    "modelVariant": ""
+  },
+  {
+    "make": "Tesla",
+    "modelFamily": "Model 3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Tesla",
+    "modelFamily": "Model S",
+    "modelVariant": ""
+  },
+  {
+    "make": "Tesla",
+    "modelFamily": "Model X",
+    "modelVariant": ""
+  },
+  {
+    "make": "Tesla",
+    "modelFamily": "Sybatrak",
+    "modelVariant": ""
+  },
+  {
+    "make": "Tesla",
+    "modelFamily": "Y. model y",
+    "modelVariant": ""
+  },
+  {
+    "make": "Today Sunshine",
+    "modelFamily": "M2",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Aigo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Avantsis",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Avolon",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "C-HR",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Clearing",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Corolla",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Corolla Cross",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Corolla Versro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Crown",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "FJ Cruiser",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Fore-Renner",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "GT86",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Grand Highlander",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Hayes",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Highlander",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Hyilx",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Hyilx Vigo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Igo X",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Land Cruiser",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "MR 2",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Oris",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Paris",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Paris City",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Prius",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Prius Plus",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Prywian",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "RAV4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Roseo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Siena",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Skoya",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Starlett",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Supra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Tacoma",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Tundra",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Vana",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Vero-S",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Yaris",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Yaris Cross",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "Yaris GR",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "bZ4X",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "chamber",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "iQ",
+    "modelVariant": ""
+  },
+  {
+    "make": "Toyota",
+    "modelFamily": "radiation",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "AP",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Amarok",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Artown",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Beetle",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Bora",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "California",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Crape",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Crowell",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Eyes",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "ID.3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "ID.4",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "ID.5",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "ID.6",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "ID.7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "ID.Buzz",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Jetta",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Kadi",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "LT",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "LT 35",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Multivan",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Passat",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Passat CC",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Pimiton",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "T-crossover",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "T-rock",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Tago",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Taro",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Tiguan",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Torne",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Transporter",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Tuareg",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Vento",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "Whistle",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "atlas",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "golf",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volkswagen",
+    "modelFamily": "polo",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "850",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "940",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "960",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "C30",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "C40",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "C70",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "EX30",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "S40",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "S60",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "S70",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "S80",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "S90",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "V40",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "V50",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "V60",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "V70",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "V90",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "XC40",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "XC60",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "XC70",
+    "modelVariant": ""
+  },
+  {
+    "make": "Volvo",
+    "modelFamily": "XC90",
+    "modelVariant": ""
+  },
+  {
+    "make": "Voyah",
+    "modelFamily": "DNAs",
+    "modelVariant": ""
+  },
+  {
+    "make": "Voyah",
+    "modelFamily": "fruit",
+    "modelVariant": ""
+  },
+  {
+    "make": "WEY",
+    "modelFamily": "Kofi 01",
+    "modelVariant": ""
+  },
+  {
+    "make": "WEY",
+    "modelFamily": "Kofi 02",
+    "modelVariant": ""
+  },
+  {
+    "make": "WM Motors",
+    "modelFamily": "Double yo 5",
+    "modelVariant": ""
+  },
+  {
+    "make": "XPENG",
+    "modelFamily": "G3",
+    "modelVariant": ""
+  },
+  {
+    "make": "XPENG",
+    "modelFamily": "G6",
+    "modelVariant": ""
+  },
+  {
+    "make": "XPENG",
+    "modelFamily": "G9",
+    "modelVariant": ""
+  },
+  {
+    "make": "XPENG",
+    "modelFamily": "P7",
+    "modelVariant": ""
+  },
+  {
+    "make": "XPENG",
+    "modelFamily": "P7",
+    "modelVariant": ""
+  },
+  {
+    "make": "Yudo",
+    "modelFamily": "Will be admitted 3",
+    "modelVariant": ""
+  },
+  {
+    "make": "Zeekr",
+    "modelFamily": "001",
+    "modelVariant": ""
+  },
+  {
+    "make": "Zeekr",
+    "modelFamily": "X",
+    "modelVariant": ""
+  }
+]

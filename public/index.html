@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOK Pilot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app" class="page">
+        <div class="section hero">
+            <div class="hero-title">
+                <h1>טוען פיילוט...</h1>
+                <span class="period">מסמך נתונים עולה</span>
+            </div>
+            <p class="lead">הנתונים נטענים מקובץ data/pilot.json</p>
+            <div class="chips">
+                <span class="chip">המתן לטעינה</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const state = {
+            data: null,
+            businessFilter: 'All',
+            sessionFilter: null,
+            showFullVehicles: false
+        };
+
+        const app = document.getElementById('app');
+
+        document.addEventListener('DOMContentLoaded', loadPilot);
+
+        async function loadPilot() {
+            try {
+                const res = await fetch('data/pilot.json');
+                if (!res.ok) {
+                    throw new Error('לא ניתן לטעון את pilot.json');
+                }
+                const data = await res.json();
+                state.data = data;
+                state.sessionFilter = data.sessions?.default || 'All';
+                document.title = data.title || 'LOOK Pilot';
+                renderApp();
+            } catch (err) {
+                app.innerHTML = `
+                    <div class="section hero">
+                        <h1>שגיאה בטעינת הנתונים</h1>
+                        <p class="lead">${err.message}</p>
+                        <div class="callout">ודא שקובץ data/pilot.json נגיש מאותה תיקייה.</div>
+                    </div>
+                `;
+            }
+        }
+
+        function renderApp() {
+            if (!state.data) return;
+            const data = state.data;
+
+            const sections = [
+                renderHero(data),
+                renderOverall(data.overall),
+                renderBusinesses(data.businesses),
+                renderVehicles(data.vehicles),
+                renderGeo(data.geo),
+                renderSessions(data.sessions),
+                renderActions(data.actions),
+                renderConclusion(data.conclusion)
+            ].join('');
+
+            app.innerHTML = sections;
+        }
+
+        function renderHero(data) {
+            const period = data.period || {};
+            const start = period.start ? new Date(period.start) : null;
+            const end = period.end ? new Date(period.end) : null;
+            const now = new Date();
+            const totalDays = start && end ? Math.max(0, Math.round((end - start) / 86400000)) : null;
+            const elapsed = start ? Math.max(0, Math.round((now - start) / 86400000)) : null;
+            const remaining = totalDays !== null && elapsed !== null ? Math.max(0, totalDays - elapsed) : null;
+
+            const counters = (data.hero?.counters || []).map(counter => `
+                <div class="metric-card tone-${counter.tone || 'secondary'}">
+                    <div class="metric-label">${counter.label || ''}</div>
+                    <div class="metric-value">${counter.value ?? ''}</div>
+                    ${counter.note ? `<div class="metric-note">${counter.note}</div>` : ''}
+                </div>
+            `).join('');
+
+            const filters = (data.hero?.filters || []).map(filter => `
+                <button data-filter="${filter}" class="${state.businessFilter === filter ? 'is-active' : ''}">
+                    ${filter === 'All' ? 'כל העסקים' : filter}
+                </button>
+            `).join('');
+
+            return `
+                <section class="section hero">
+                    <div class="hero-title">
+                        <h1>${data.title || 'פיילוט LOOK'}</h1>
+                        <span class="period">
+                            ${start ? `מתאריך ${start.toLocaleDateString('he-IL')}` : ''}
+                            ${end ? `עד ${end.toLocaleDateString('he-IL')}` : ''}
+                            ${remaining !== null ? `· ${remaining} ימים לסיום` : ''}
+                        </span>
+                    </div>
+                    <p class="lead">${data.subtitle || data.hero?.summary || ''}</p>
+                    <div class="grid cols-3">
+                        ${counters}
+                    </div>
+                    <div class="filters">
+                        ${filters}
+                    </div>
+                    <div class="note" style="margin-top:10px;">הכול נטען מ-pilot.json ומוכן לחיבור ל-API.</div>
+                </section>
+            `;
+        }
+
+        function renderOverall(metrics = []) {
+            const cards = metrics.map(metric => `
+                <div class="metric-card tone-${metric.tone || 'secondary'}">
+                    <div class="metric-label">${metric.label || ''}</div>
+                    <div class="metric-value">${metric.value ?? ''}</div>
+                    ${metric.note ? `<div class="metric-note">${metric.note}</div>` : ''}
+                </div>
+            `).join('');
+
+            return `
+                <section class="section">
+                    <h2>ביצועים כלליים</h2>
+                    <p class="lead">תמונת מצב מרוכזת של הפיילוט.</p>
+                    <div class="grid cols-3">${cards}</div>
+                </section>
+            `;
+        }
+
+        function renderBusinesses(businesses = []) {
+            const filtered = state.businessFilter === 'All'
+                ? businesses
+                : businesses.filter(biz => (biz.id || biz.name) === state.businessFilter);
+
+            const cards = filtered.map(biz => `
+                <div class="business-card">
+                    <div class="business-header">
+                        <h3>${biz.name || ''}</h3>
+                        <span class="badge tone-secondary">${biz.tagline || ''}</span>
+                    </div>
+                    <p class="business-tagline">${biz.summary || ''}</p>
+                    <div class="kpi-row">
+                        ${(biz.kpis || []).map(kpi => `<span class="pill">${kpi.label}: ${kpi.value}</span>`).join('')}
+                    </div>
+                    ${biz.abTest ? `
+                        <div class="ab-test">
+                            <div class="badge tone-primary">זוכה: ${biz.abTest.winner}</div>
+                            <div class="badge">${biz.abTest.note || ''}</div>
+                            ${(biz.abTest.variants || []).map(variant => `
+                                <div class="badge tone-muted">${variant.name}: ${variant.result}</div>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                    ${biz.visual ? `<div class="note">ויזואל: ${biz.visual}</div>` : ''}
+                </div>
+            `).join('');
+
+            return `
+                <section class="section">
+                    <h2>פילוח עסקים וקריאייטיב</h2>
+                    <p class="lead">לחץ על סינון בראש העמוד כדי להתמקד בעסק אחד.</p>
+                    <div class="grid cols-2">
+                        ${cards || '<div class="empty">אין נתונים להצגה</div>'}
+                    </div>
+                </section>
+            `;
+        }
+
+        function renderVehicles(vehicles = {}) {
+            const topCards = (vehicles.topList || []).map(car => `
+                <div class="metric-card">
+                    <div class="metric-label">${car.segment || ''}</div>
+                    <div class="metric-value">${car.model || ''}</div>
+                    <div class="metric-note">CTR ${car.ctr || '-'} · לידים ${car.leads ?? '-'}</div>
+                </div>
+            `).join('');
+
+            const tableRows = (vehicles.table || []).map(row => `
+                <tr>
+                    <td>${row.model || ''}</td>
+                    <td>${row.clicks ?? '-'}</td>
+                    <td>${row.ctr || '-'}</td>
+                    <td>${row.leads ?? '-'}</td>
+                </tr>
+            `).join('');
+
+            return `
+                <section class="section">
+                    <div class="hero-title" style="margin-bottom:12px;">
+                        <h2>דגמי רכב מובילים</h2>
+                        <button class="btn secondary" data-toggle="vehicles">
+                            ${state.showFullVehicles ? 'הסתר טבלה מלאה' : 'הצג טבלה מלאה'}
+                        </button>
+                    </div>
+                    <p class="lead">${vehicles.note || 'מבט מהיר על ביצועי הדגמים.'}</p>
+                    <div class="grid cols-3">${topCards}</div>
+                    ${state.showFullVehicles ? `
+                        <div class="table-wrapper" style="margin-top:14px;">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>דגם</th>
+                                        <th>קליקים</th>
+                                        <th>CTR</th>
+                                        <th>לידים</th>
+                                    </tr>
+                                </thead>
+                                <tbody>${tableRows}</tbody>
+                            </table>
+                        </div>
+                    ` : ''}
+                </section>
+            `;
+        }
+
+        function renderGeo(regions = []) {
+            const items = regions.map(region => {
+                const width = typeof region.share === 'string'
+                    ? Math.min(100, parseInt(region.share.replace('%', ''), 10) || 0)
+                    : 0;
+                return `
+                    <div class="metric-card">
+                        <div class="metric-label">${region.region || ''}</div>
+                        <div class="metric-value">${region.leads ?? '-'} לידים</div>
+                        <div class="callout" style="margin-top:8px;">
+                            <div style="height:8px; background:#e2e8f0; border-radius:999px; overflow:hidden;">
+                                <div style="width:${width}%; background:var(--look-secondary); height:100%;"></div>
+                            </div>
+                            <div class="metric-note">${region.share || ''} מהיקף הפיילוט</div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            return `
+                <section class="section">
+                    <h2>פיזור גיאוגרפי</h2>
+                    <p class="lead">חלוקת לידים לפי אזור.</p>
+                    <div class="grid cols-2">${items}</div>
+                </section>
+            `;
+        }
+
+        function renderSessions(sessions = {}) {
+            const segments = sessions.segments || {};
+            const keys = Object.keys(segments);
+            if (!state.sessionFilter || !segments[state.sessionFilter]) {
+                state.sessionFilter = sessions.default || keys[0] || null;
+            }
+            const current = state.sessionFilter ? segments[state.sessionFilter] : null;
+
+            return `
+                <section class="section">
+                    <div class="hero-title" style="margin-bottom:10px;">
+                        <h2>התנהגות גולשים</h2>
+                        <select data-session-select>
+                            ${keys.map(key => `
+                                <option value="${key}" ${key === state.sessionFilter ? 'selected' : ''}>
+                                    ${key === 'All' ? 'כלל העסקים' : key}
+                                </option>
+                            `).join('')}
+                        </select>
+                    </div>
+                    ${current ? `
+                        <div class="grid cols-3">
+                            <div class="metric-card tone-success">
+                                <div class="metric-label">המרה</div>
+                                <div class="metric-value">${current.conversion || '-'}</div>
+                            </div>
+                            <div class="metric-card tone-danger">
+                                <div class="metric-label">Bounce</div>
+                                <div class="metric-value">${current.bounce || '-'}</div>
+                            </div>
+                            <div class="metric-card tone-primary">
+                                <div class="metric-label">זמן שהיה</div>
+                                <div class="metric-value">${current.avgTime || '-'}</div>
+                            </div>
+                        </div>
+                        <div class="callout" style="margin-top:12px;">${current.summary || ''}</div>
+                    ` : '<div class="empty">אין נתוני סשן זמינים</div>'}
+                </section>
+            `;
+        }
+
+        function renderActions(actions = {}) {
+            const wins = (actions.wins || []).map(item => `<li>${item}</li>`).join('');
+            const next = (actions.next || []).map(item => `<li>${item}</li>`).join('');
+
+            return `
+                <section class="section">
+                    <h2>הפקת לקחים</h2>
+                    <div class="actions grid cols-2">
+                        <div>
+                            <h4>מה עבד</h4>
+                            <ul>${wins || '<li class="muted">הוסף תובנות</li>'}</ul>
+                        </div>
+                        <div>
+                            <h4>השלב הבא</h4>
+                            <ul>${next || '<li class="muted">הוסף צעדים</li>'}</ul>
+                        </div>
+                    </div>
+                </section>
+            `;
+        }
+
+        function renderConclusion(paragraphs = []) {
+            const body = paragraphs.map(text => `<p class="lead">${text}</p>`).join('');
+            return `
+                <section class="section hero">
+                    <h2>סיכום קצר</h2>
+                    ${body || '<p class="lead muted">הוסף סיכום בקובץ הנתונים.</p>'}
+                    <div class="note">המבנה נשאר פתוח לחיבור עתידי ל-API או קוד פייתון.</div>
+                </section>
+            `;
+        }
+
+        app.addEventListener('click', (event) => {
+            const filterBtn = event.target.closest('[data-filter]');
+            if (filterBtn) {
+                state.businessFilter = filterBtn.dataset.filter;
+                renderApp();
+                return;
+            }
+
+            const toggle = event.target.closest('[data-toggle="vehicles"]');
+            if (toggle) {
+                state.showFullVehicles = !state.showFullVehicles;
+                renderApp();
+            }
+        });
+
+        app.addEventListener('change', (event) => {
+            if (event.target.matches('[data-session-select]')) {
+                state.sessionFilter = event.target.value;
+                renderApp();
+            }
+        });
+    </script>
+</body>
+</html>
