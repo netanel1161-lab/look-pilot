@@ -1,0 +1,162 @@
+[
+  {
+    "id_car": "87322801",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/mitsubishi/asx/2020/gray_main.webp",
+    "brand": "Mitsubishi",
+    "model": "ASX",
+    "year": "2020",
+    "color": "gray",
+    "responsible": "נתנאל בן דוד",
+    "notes": ""
+  },
+  {
+    "id_car": "56559903",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/toyota/corolla/2023/white_side.webp",
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": "2023",
+    "color": "white",
+    "responsible": "מיכאל חיימוביץ",
+    "notes": ""
+  },
+  {
+    "id_car": "56560003",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/toyota/corolla/2023/white_side.webp",
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": "2023",
+    "color": "white",
+    "responsible": "מיכאל חיימוביץ",
+    "notes": ""
+  },
+  {
+    "id_car": "36205703",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/kia/picanto/2023/gray_main.webp",
+    "brand": "Kia",
+    "model": "Picanto",
+    "year": "2023",
+    "color": "gray",
+    "responsible": "מיכאל חיימוביץ",
+    "notes": ""
+  },
+  {
+    "id_car": "56763303",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/hyundai/i10/2023/white_main.webp",
+    "brand": "Hyundai",
+    "model": "i10",
+    "year": "2023",
+    "color": "white",
+    "responsible": "מיכאל חיימוביץ",
+    "notes": ""
+  },
+  {
+    "id_car": "21720801",
+    "link": "",
+    "brand": "Nissan",
+    "model": "Micra",
+    "year": "2018",
+    "color": "אפור",
+    "responsible": "מיכאל חיימוביץ",
+    "notes": "* אין תמונה * "
+  },
+  {
+    "id_car": "3456452",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/kia/picanto/2016/white_side.webp",
+    "brand": "Kia",
+    "model": "Picanto",
+    "year": "2016",
+    "color": "white",
+    "responsible": "מיכאל חיימוביץ",
+    "notes": ""
+  },
+  {
+    "id_car": "31669404",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/hyundai/kona/2025/white_side.webp",
+    "brand": "Hyundai",
+    "model": "Kona",
+    "year": "2025",
+    "color": "white",
+    "responsible": "מיכאל חיימוביץ",
+    "notes": "* לבדוק בדפוס *"
+  },
+  {
+    "id_car": "47013301",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/toyota/c_hr/2018/white_side.webp",
+    "brand": "Toyota",
+    "model": "C_hr",
+    "year": "2018",
+    "color": "white",
+    "responsible": "אלירן שבת > מורן טרי",
+    "notes": ""
+  },
+  {
+    "id_car": "4648133",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/kia/sportage/2016/gray_main.webp",
+    "brand": "Kia",
+    "model": "Sportage",
+    "year": "2016",
+    "color": "gray",
+    "responsible": "אלירן שבת > רחלי",
+    "notes": ""
+  },
+  {
+    "id_car": "36135402",
+    "link": "",
+    "brand": "Mitsubishi",
+    "model": "Outlander",
+    "year": "2021",
+    "color": "שחור",
+    "responsible": "אלירן שבת > אורי",
+    "notes": "* אין תמונה * "
+  },
+  {
+    "id_car": "1738738",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/seat/ibiza/2016/gray_main.webp",
+    "brand": "Seat",
+    "model": "Ibiza",
+    "year": "2016",
+    "color": "gray",
+    "responsible": "אלירן שבת > אל עובדיה ",
+    "notes": ""
+  },
+  {
+    "id_car": "37787602",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/mazda/3/2020/gray_side.webp",
+    "brand": "Mazda",
+    "model": "3",
+    "year": "2020",
+    "color": "gray",
+    "responsible": "אלירן שבת > רועי גלאור",
+    "notes": ""
+  },
+  {
+    "id_car": "47807301",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/chevrolet/spark/2019/gray_main.webp",
+    "brand": "Chevrolet",
+    "model": "Spark",
+    "year": "2019",
+    "color": "gray",
+    "responsible": "אלירן שבת > רון חנייה",
+    "notes": ""
+  },
+  {
+    "id_car": "39613901",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/skoda/superb/2018/black_main.webp",
+    "brand": "Skoda",
+    "model": "Superb",
+    "year": "2018",
+    "color": "black",
+    "responsible": "אבירם משיח ",
+    "notes": ""
+  },
+  {
+    "id_car": "5707453",
+    "link": "https://hnsgimjxowxjjcdypvjw.supabase.co/storage/v1/object/public/cars/audi/a1/2016/white_main.webp",
+    "brand": "Audi",
+    "model": "A1",
+    "year": "2016",
+    "color": "white",
+    "responsible": "אבירם משיח ",
+    "notes": ""
+  }
+]

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <title>LOOK • ניהול ברקודים</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="hero-title" style="align-items:center; gap:12px;">
+      <div>
+        <h1 style="margin:0;">ניהול ברקודים</h1>
+        <p class="lead" style="margin:4px 0 0;">קוד QR לכל שיבוץ רכב-קריאייטיב, עם סינון לפי עסק/מודעה/רכב.</p>
+      </div>
+      <div style="display:flex; gap:8px; margin-inline-start:auto;">
+        <a class="btn secondary" href="index.html">חזרה לדשבורד</a>
+        <button id="export-selected" class="btn">יצוא נבחרים</button>
+      </div>
+    </div>
+
+    <div id="barcodes-status" class="note">טוען נתונים...</div>
+
+    <div class="filters" style="margin:14px 0; gap:10px;">
+      <select id="pilot-filter"></select>
+      <select id="business-filter"></select>
+      <select id="creative-filter"></select>
+      <select id="vehicle-filter"></select>
+      <div style="margin-inline-start:auto; color:#64748b; font-weight:700;">סיכום: <span id="summary">0</span></div>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th><input type="checkbox" id="select-all" /></th>
+            <th># שיבוץ</th>
+            <th>עסק</th>
+            <th>מודעה</th>
+            <th>רכב</th>
+            <th>ברקוד</th>
+            <th>URL</th>
+            <th>QR</th>
+          </tr>
+        </thead>
+        <tbody id="barcode-rows"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+  <script type="module" src="barcodesLogic.js"></script>
+</body>
+</html>

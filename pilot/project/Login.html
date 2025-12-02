@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>נתוני פיילוט | כניסה</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght=300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'lok-primary': '#007AFF',
+                        'lok-dark-gray': '#393939',
+                        'lok-soft-gray': '#F7F8FA',
+                        'lok-success': '#28A745',
+                        'lok-error': '#DC3545',
+                    },
+                    fontFamily: {
+                        sans: ['Heebo', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+            color: #393939;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            background-color: #F7F8FA;
+        }
+
+        /* Diagonal background split */
+        .login-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #F7F8FA 50%, #EBF5FF 50%);
+            z-index: 0;
+        }
+
+        /* Animated Geometric Circles */
+        .system-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            opacity: 0.15; 
+            z-index: 1;
+        }
+
+        .system-background svg {
+            position: absolute;
+            animation: moveCircles 30s linear infinite alternate; 
+            filter: blur(10px);
+        }
+
+        .system-background .circle-1 {
+            width: 500px; height: 500px;
+            top: -10%; right: -10%;
+            fill: #007AFF;
+            animation-delay: 0s;
+        }
+
+        .system-background .circle-2 {
+            width: 700px; height: 700px;
+            bottom: -20%; left: -20%;
+            fill: #007AFF;
+            animation-delay: 15s;
+        }
+
+        @keyframes moveCircles {
+            0% { transform: translate(0, 0) scale(1); }
+            100% { transform: translate(-30px, 30px) scale(1.05); }
+        }
+
+        /* Login Card */
+        .login-card {
+            z-index: 10;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Phone Input Styling */
+        .phone-input {
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #007AFF;
+            border: 2px solid #EBF5FF;
+            transition: all 0.2s;
+            letter-spacing: 2px;
+        }
+        .phone-input:focus {
+            outline: none;
+            border-color: #007AFF;
+            box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.15);
+        }
+        .phone-input::placeholder {
+            color: #cbd5e1;
+            font-weight: 400;
+            letter-spacing: normal;
+        }
+
+        /* Feedback Message Styling */
+        #feedback-message {
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.3s, transform 0.3s;
+        }
+        #feedback-message.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        #feedback-message.success {
+            color: #28A745;
+        }
+        #feedback-message.error {
+            color: #DC3545;
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top: 3px solid white;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+            margin-inline-end: 8px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Button style */
+        .login-button {
+            transition: all 0.3s;
+        }
+        .login-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 122, 255, 0.3);
+        }
+        .login-button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+        
+        .fade-in-up {
+            animation: fadeInUp 0.5s ease-out forwards;
+        }
+        
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-background"></div> 
+    
+    <div class="system-background">
+        <svg class="circle-1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>
+        <svg class="circle-2" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>
+    </div>
+    
+    <!-- Audio Elements -->
+    <!-- צליל הצלחה נעים -->
+    <audio id="sound-success" src="https://assets.mixkit.co/sfx/preview/mixkit-software-interface-start-2574.mp3" preload="auto"></audio>
+    <!-- צליל שגיאה -->
+    <audio id="sound-error" src="https://assets.mixkit.co/sfx/preview/mixkit-wrong-answer-fail-notification-946.mp3" preload="auto"></audio>
+
+    <!-- Login Card -->
+    <div id="login-card" class="login-card w-full max-w-md p-8 sm:p-12 rounded-3xl text-center">
+        
+        <!-- כותרת ראשית מעודכנת וללא תת-כותרת -->
+        <h1 class="text-4xl font-extrabold text-lok-dark-gray mb-10">נתוני פיילוט</h1>
+        
+        <!-- טופס כניסה -->
+        <form id="login-form" class="space-y-6">
+            
+            <div class="text-right">
+                <label for="phone-input" class="block text-base font-medium text-gray-700 mb-2">
+                    מספר טלפון:
+                </label>
+                <!-- תיבת טלפון יחידה -->
+                <div dir="ltr" class="relative">
+                    <input 
+                        type="tel" 
+                        id="phone-input" 
+                        class="phone-input rounded-xl" 
+                        placeholder="0500000000"
+                        autocomplete="tel"
+                        maxlength="10"
+                    >
+                </div>
+            </div>
+            
+            <!-- אזור הודעות שגיאה/הצלחה -->
+            <div id="feedback-message" class="text-center text-sm font-medium h-6"></div>
+            
+            <button type="submit" id="login-btn" class="login-button w-full py-3 rounded-xl text-lg font-bold text-white bg-lok-primary hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-lok-primary/50">
+                <span>כניסה</span>
+            </button>
+        </form>
+    </div>
+
+    <script type="module" src="supabaseClient.js"></script>
+    <script type="module" src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+@baseUrl = https://qr-tracker-722b9d92.base44.app/api
+@token = YOUR_API_KEY_HERE
+@contentType = application/json
+
+### ------------------------------------------------------------------------
+### תיעוד API מלא - QR Tracker
+### ------------------------------------------------------------------------
+### הנחיות:
+### 1. החלף את YOUR_API_KEY_HERE למעלה במפתח האמיתי שלך.
+### 2. לחץ על "Send Request" מעל כל בקשה כדי להפעיל אותה.
+### ------------------------------------------------------------------------
+
+### ------------------------------------------------------------------------
+### מחלקת סריקות (Scans)
+### ------------------------------------------------------------------------
+
+### 1. קבלת כל הסריקות (All Scans)
+GET {{baseUrl}}/scans
+    ?limit=50
+    &offset=0
+    &event_type=scan
+    # &barcode_id=abc123
+    # &country=Israel
+    # &city=Tel Aviv
+    # &device_type=Mobile
+    # &from_date=2024-01-01
+    # &to_date=2024-02-01
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### 2. קבלת סריקות של ברקוד ספציפי (Scans by Barcode ID)
+GET {{baseUrl}}/barcodes/abc123/scans
+    ?limit=20
+    # &from_date=2024-01-01
+    # &to_date=2024-02-01
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### 3. רישום סריקה חדשה / Webhook (Register Scan)
+POST {{baseUrl}}/scans
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+{
+  "barcode_id": "abc123",
+  "event_type": "scan", 
+  "ip_address": "1.2.3.4",
+  "city": "תל אביב",
+  "country": "Israel",
+  "device_type": "Mobile",
+  "os_name": "iOS",
+  "browser_name": "Safari",
+  "utm_source": "facebook",
+  "utm_campaign": "summer_sale"
+}
+
+### ------------------------------------------------------------------------
+### מחלקת ברקודים (Barcodes)
+### ------------------------------------------------------------------------
+
+### 4. רשימת כל הברקודים (List All Barcodes)
+### שליפת רשימת הברקודים עם אפשרויות סינון ודפדוף.
+GET {{baseUrl}}/barcodes
+    ?limit=50
+    &offset=0
+    # &business_name=שם העסק
+    # &campaign=summer_2024
+    # &project=פרויקט
+    # &is_active=true
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### 5. קבלת ברקוד בודד (Get Single Barcode)
+### החלף את 'abc123' במזהה הברקוד הרצוי.
+GET {{baseUrl}}/barcodes/abc123
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### 6. יצירת ברקוד חדש (Create Barcode)
+### יוצר ברקוד חדש במערכת.
+POST {{baseUrl}}/barcodes
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+{
+  "name": "קמפיין חורף חדש",
+  "business_name": "העסק שלי",
+  "campaign": "winter_2024",
+  "creative": "B",
+  "vehicle_id": "VH-002",
+  "plate_number": "98-765-43",
+  "project": "פרויקט Y",
+  "brand": "מותג Z",
+  "target_link": "https://example.com/landing",
+  "transit_page_id": "tp_789",
+  "color": "#3b82f6",
+  "tags": ["indoor", "haifa"]
+}
+
+### 7. עדכון ברקוד (Update Barcode)
+### עדכון שדות בברקוד קיים (למשל שינוי לינק יעד או כיבוי הברקוד).
+PUT {{baseUrl}}/barcodes/abc123
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+{
+  "target_link": "https://new-link.com",
+  "is_active": false
+}
+
+### 8. מחיקת ברקוד (Delete Barcode)
+### מוחק את הברקוד ואת כל הסריקות הקשורות אליו.
+DELETE {{baseUrl}}/barcodes/abc123
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### ------------------------------------------------------------------------
+### מחלקת אנליטיקס (Analytics)
+### ------------------------------------------------------------------------
+
+### 9. סקירה כללית (Overview)
+### סטטיסטיקות כלליות (סה"כ ברקודים, סריקות, סריקות היום וכו').
+GET {{baseUrl}}/analytics/overview
+    ?from_date=2024-01-01
+    &to_date=2024-02-01
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### 10. אנליטיקס לפי מיקום (By Location)
+### התפלגות סריקות לפי מדינה, עיר ואזור.
+GET {{baseUrl}}/analytics/by-location
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### 11. אנליטיקס לפי מכשיר (By Device)
+### התפלגות לפי סוג מכשיר (Mobile/Desktop), מערכת הפעלה ודפדפן.
+GET {{baseUrl}}/analytics/by-device
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### 12. אנליטיקס לפי זמן (By Time)
+### התפלגות סריקות לפי שעות, ימים וחודשים.
+### granularity: hour / day / week / month
+GET {{baseUrl}}/analytics/by-time
+    ?granularity=day
+    &from_date=2024-01-01
+    &to_date=2024-02-01
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### 13. אנליטיקס לפי קמפיין (By Campaign)
+### השוואת ביצועים בין קמפיינים שונים.
+GET {{baseUrl}}/analytics/by-campaign
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### 14. אנליטיקס המרות (Conversions)
+### מעקב המרות ופאנל (Funnel) - מסריקה ועד רכישה.
+GET {{baseUrl}}/analytics/conversions
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}

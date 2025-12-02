@@ -1,0 +1,41 @@
+[
+  {
+    "name": "אושי אושי",
+    "primary_color": "#009688",
+    "secondary_color": "#004D40",
+    "landing_title": "סושי טרי עד הרכב שלך",
+    "landing_subtitle": "הזמנה דרך לוק – והגלגול הראשון עלינו",
+    "offer_text": "10% הנחה על ההזמנה הראשונה מהקוד על הרכב",
+    "cta_text": "להזמנה מהירה",
+    "whatsapp_link": "https://wa.me/972000000001",
+    "website_url": "https://www.ushiushi.co.il",
+    "instagram_link": "https://www.instagram.com/ushiushi",
+    "tiktok_link": "https://www.tiktok.com/@ushiushi"
+  },
+  {
+    "name": "מסר חיובי",
+    "primary_color": "#FF9800",
+    "secondary_color": "#E65100",
+    "landing_title": "קיר מסרים חיוביים לעסק שלך",
+    "landing_subtitle": "כל סריקה – משפט שמרים את היום",
+    "offer_text": "הצטרפות חינמית לחודש הראשון דרך הקוד על הרכב",
+    "cta_text": "להצטרפות",
+    "whatsapp_link": "https://wa.me/972000000002",
+    "website_url": "https://www.positive-message.co.il",
+    "instagram_link": "https://www.instagram.com/positive_message",
+    "tiktok_link": "https://www.tiktok.com/@positive_message"
+  },
+  {
+    "name": "טופ סלולר",
+    "primary_color": "#3F51B5",
+    "secondary_color": "#1A237E",
+    "landing_title": "שידרוג סמארטפון במחיר פיילוט",
+    "landing_subtitle": "מבצעים בלעדיים לנוסעי לוק",
+    "offer_text": "עד 15% הנחה על שדרוג מכשיר בהצגת סריקה מהרכב",
+    "cta_text": "לשיחה עם נציג",
+    "whatsapp_link": "https://wa.me/972000000003",
+    "website_url": "https://www.topcell.co.il",
+    "instagram_link": "https://www.instagram.com/topcell",
+    "tiktok_link": "https://www.tiktok.com/@topcell"
+  }
+]

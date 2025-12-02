@@ -1,0 +1,67 @@
+{
+  "table": "vehicles",
+  "description": "טבלת הרכבים לפיילוט LOOK. כל שורה = רכב אחד במאגר הפיילוט.",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int8",
+      "description": "מזהה פנימי אוטומטי של Supabase (primary key). לא משתמשים בו בצד לקוח."
+    },
+    {
+      "name": "id_car",
+      "type": "text",
+      "description": "מספר רכב / מזהה רכב בפיילוט. זה השדה שבו אתה משתמש בכל הדוחות והטפסים."
+    },
+    {
+      "name": "image_url",
+      "type": "text",
+      "description": "קישור לתמונה הראשית של הרכב מ־Supabase Storage. יכול להיות ריק אם אין תמונה."
+    },
+    {
+      "name": "brand",
+      "type": "text",
+      "description": "יצרן הרכב (Kia, Toyota, Hyundai וכו')."
+    },
+    {
+      "name": "model",
+      "type": "text",
+      "description": "מודל הרכב (Picanto, Corolla, ASX...)."
+    },
+    {
+      "name": "year",
+      "type": "int2",
+      "description": "שנת ייצור הרכב (2016–2025)."
+    },
+    {
+      "name": "color",
+      "type": "text",
+      "description": "צבע הרכב (gray, white, black וכו' או תיאור בעברית אם צריך)."
+    },
+    {
+      "name": "responsible",
+      "type": "text",
+      "description": "מי אחראי על הרכב בפיילוט (נתנאל, מיכאל, אלירן, אבירם וכו')."
+    },
+    {
+      "name": "notes",
+      "type": "text",
+      "description": "הערות חופשיות – למשל '* אין תמונה *', '* לבדוק בדפוס *' וכו'."
+    },
+    {
+      "name": "created_at",
+      "type": "timestamptz",
+      "description": "תאריך יצירת הרשומה במערכת. נוצר אוטומטית."
+    }
+  ],
+  "example_row": {
+    "id": 1,
+    "id_car": "87322801",
+    "image_url": "https://.../cars/mitsubishi/asx/2020/gray_main.webp",
+    "brand": "Mitsubishi",
+    "model": "ASX",
+    "year": 2020,
+    "color": "gray",
+    "responsible": "נתנאל בן דוד",
+    "notes": ""
+  }
+}
